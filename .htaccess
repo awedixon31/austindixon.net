@@ -1,0 +1,14 @@
+# Begin Muse Generated redirects
+# End Muse Generated redirects
+
+AddHandler cgi-script .py
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 109.86.72.163
+
+RewriteRule   ^index\.html$  IsAustinDead.cgi [L]
